@@ -1,0 +1,122 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    background-color:#f6efe8;
+}
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #1d1d1d;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.home {
+    max-width: 100%;
+    padding: 0 16px;
+   
+    &__headline h1 {
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    font-size: 44px;
+    }
+
+    &__headline p{
+    line-height: 1.444;
+    letter-spacing: -.2px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    }
+}
+
+.home__signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup--button {
+    display: flex;
+    background-color: #611f69;
+    border-radius: 10px;
+    height: 70px;
+    padding: 20px, 24px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.signup--link {
+    display: flex;
+    text-decoration: none;
+    color:white;
+    white-space: normal;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.signup--google {
+   height: 70px;    
+   padding: 20px, 24px;
+   border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #4285f4;
+    text-decoration: none;
+    color: #fff;
+}
+
+.signup--google img{
+    height: 90%; 
+    margin: 4px;
+    border-radius: 2px;
+}
+.signup--google a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.home__illustration img{
+    width: 100%;
+}
+
+.instructions {
+    margin-bottom: 7px;
+    padding: 40px 16px 16px 16px;
+}
+.instructions__number {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #611f69;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.number--item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.instructions__text{
+   margin-bottom: 18px;
+}
+.example {
+    max-width: 100%;
+}
+.example img {
+    padding: 12px;
+}
